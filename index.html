@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rastreador de Tareas</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Rastreador de Tareas</h1>
+    
+    <form id="task-form" class="input-box">
+      <input 
+        type="text" 
+        id="task-input" 
+        placeholder="Escribe y presiona enter para agregar una tarea" 
+        required 
+        autocomplete="off"
+      >
+      <button type="submit" class="enter-btn">↵</button>
+    </form>
+
+    <ul id="task-list" class="task-list"></ul>
+  </div>
+
+  <script src="js/scrip.js"></script>
+</body>
+</html>
